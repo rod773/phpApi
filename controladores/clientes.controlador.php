@@ -1,15 +1,14 @@
 <?php
 
-
 class ControladorClientes {
-   
-    public function create(){
+
+    public function create() {
         $json = array(
-                "detalle" => "estas en la vista registro"
-            );
+            "detalle" => "estas en la vista registro"
+        );
 
-            echo json_encode($json, true);
+        echo json_encode($json, true);
 
-            return;
+        return;
     }
 }

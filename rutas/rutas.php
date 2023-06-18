@@ -28,6 +28,18 @@ if (count(array_filter($arrayRutas)) == 1) {
 
             return;
         }
+        
+        if (array_filter($arrayRutas)[2] == "registro"
+        ) {
+
+            $json = array(
+                "detalle" => "estas en la vista registro"
+            );
+
+            echo json_encode($json, true);
+
+            return;
+        }
     }
 }
 ?>

@@ -1,4 +1,8 @@
 <?php
 
-echo "<h1>Soy La Ruta</h1>";
+$json = array(
+    "detalle no encontrado"
+);
+
+echo json_encode($json,true);
 ?>
